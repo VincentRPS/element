@@ -1,0 +1,16 @@
+edition = "2023.0.0"
+
+[tool.element.mod]
+name = "element"
+version = "0.1.0"
+description = "Python package manager"
+author = "VincentRPS"
+classifiers = []
+
+[build-system]
+requires = [
+    'msgspec~=0.13',
+    'packaging~=23.0'
+]
+build-backend = "element.build"
+backend-path = ["."]
